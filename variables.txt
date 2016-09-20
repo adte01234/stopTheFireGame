@@ -1,0 +1,26 @@
+Write all variables here in text with a short explanation if nescessary
+It's good for everyone's sanity :)
+
+Fire mob location and status:
+mobFireArray[i].mobXPos
+mobFireArray[i].mobYPos
+mobFireArray[i].mobStatus. (0 for dead and 1 for alive)
+Note that these values are stored in an array. Have stored number of mobs in var mobNumber. Check mobSpawner.js to see more.
+
+mobFireArray[] (array for storing the mob array)
+fireMob (image of fire mob)
+mobsKilled (will affect score tally)
+
+2 Other arrays are:
+extraFireMobArray
+speedFireMobArray  
+They should act exactly the same, but they spawn based off how many normal mobs you kill. 
+extraFireMob has 5 lives. It only dies when you shoot it 5 times.
+speedFireMob moves 5px per loop. It remains static for now.
+
+
+John, use scoreForFunction
+
+Forests
+forestsLeft (same as life)
+
